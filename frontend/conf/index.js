@@ -1,3 +1,3 @@
 
-const config = { backendEndpoint: "http://3.7.230.205:8082" };
+const config = { backendEndpoint: "https://qtrip-dynamic-1fcu.onrender.com" };
 export default config;
