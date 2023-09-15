@@ -66,6 +66,7 @@ function filterByDuration(list, low, high) {
   const filteredByDuration = list.filter((item) => {
     return item.duration >= low && item.duration <= high;
   });
+  console.log(filterByDuration);
   return filteredByDuration;
 }
 
@@ -117,7 +118,7 @@ function filterFunction(list, filters) {
   }
   // Place holder for functionality to work in the Stubs
   return filteredlist;
-}
+}e
 
 //Implementation of localStorage API to save filters to local storage. This should get called everytime an onChange() happens in either of filter dropdowns
 function saveFiltersToLocalStorage(filters) {
